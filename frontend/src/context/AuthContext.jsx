@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const AuthContext = createContext();
 
-export const API_BASE_URL = 'http://127.0.0.1:8000';
+export const API_BASE_URL = "https://medcare-backend-tlhk.onrender.com";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
